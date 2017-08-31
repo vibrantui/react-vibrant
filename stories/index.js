@@ -11,6 +11,9 @@ import Label from '../lib/elements/Label';
 storiesOf('Button', module)
   .add('Normal', () => (
     <Button>Default Button</Button>
+  ))
+  .add('Circle', () => (
+    <Button type='circle'>+</Button>
   ));
 
 storiesOf('Label', module)
